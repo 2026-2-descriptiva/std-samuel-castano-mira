@@ -20,7 +20,7 @@ setup
 
 # Ejecución de pruebas
 
-Ejecute el siguiente comando en el terminal (mac o windows es igual): 
+Ejecute el siguiente comando en el terminal: 
 
 ```bash
 pytest

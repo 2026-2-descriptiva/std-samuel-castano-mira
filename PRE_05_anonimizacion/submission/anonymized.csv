@@ -1,0 +1,444 @@
+age_range,region,sector,spend_range
+20-34,Antioquia,Comercio,2-4M
+20-34,Bogotá D.C.,Comercio,2-4M
+20-34,Antioquia,Comercio,2-4M
+35-49,Antioquia,Diseño y construcción,2-4M
+50+,Bogotá D.C.,Educación,2-4M
+50+,Antioquia,Salud,4-6M
+20-34,Antioquia,Diseño y construcción,2-4M
+50+,Antioquia,Administración y finanzas,6-8M
+35-49,Antioquia,Comercio,4-6M
+35-49,Bogotá D.C.,Tecnología,8M+
+35-49,Antioquia,Tecnología,4-6M
+35-49,Caribe,Administración y finanzas,2-4M
+35-49,Bogotá D.C.,Salud,4-6M
+50+,Antioquia,Salud,4-6M
+20-34,Eje Cafetero,Legal,2-4M
+50+,Caribe,Administración y finanzas,4-6M
+35-49,Antioquia,Tecnología,2-4M
+35-49,Antioquia,Diseño y construcción,0-2M
+35-49,Antioquia,Educación,2-4M
+50+,Antioquia,Diseño y construcción,4-6M
+50+,Antioquia,Tecnología,4-6M
+35-49,Antioquia,Educación,4-6M
+50+,Antioquia,Salud,6-8M
+50+,Valle del Cauca,Administración y finanzas,4-6M
+35-49,Antioquia,Diseño y construcción,2-4M
+35-49,Antioquia,Administración y finanzas,4-6M
+50+,Antioquia,Diseño y construcción,8M+
+50+,Antioquia,Diseño y construcción,4-6M
+35-49,Bogotá D.C.,Salud,2-4M
+35-49,Caribe,Administración y finanzas,4-6M
+20-34,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Comercio,2-4M
+50+,Caribe,Comercio,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Tecnología,2-4M
+35-49,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Tecnología,4-6M
+35-49,Bogotá D.C.,Salud,2-4M
+35-49,Antioquia,Educación,2-4M
+50+,Caribe,Comercio,4-6M
+50+,Caribe,Salud,2-4M
+35-49,Antioquia,Administración y finanzas,4-6M
+35-49,Bogotá D.C.,Salud,2-4M
+20-34,Bogotá D.C.,Salud,2-4M
+35-49,Antioquia,Educación,2-4M
+50+,Antioquia,Salud,6-8M
+35-49,Antioquia,Tecnología,2-4M
+20-34,Antioquia,Tecnología,4-6M
+35-49,Bogotá D.C.,Salud,2-4M
+50+,Antioquia,Administración y finanzas,6-8M
+50+,Antioquia,Salud,2-4M
+20-34,Eje Cafetero,Legal,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Tecnología,2-4M
+35-49,Antioquia,Administración y finanzas,4-6M
+35-49,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Comercio,2-4M
+20-34,Antioquia,Comercio,2-4M
+35-49,Antioquia,Comercio,2-4M
+20-34,Eje Cafetero,Administración y finanzas,2-4M
+35-49,Bogotá D.C.,Administración y finanzas,2-4M
+50+,Bogotá D.C.,Administración y finanzas,4-6M
+35-49,Antioquia,Administración y finanzas,2-4M
+20-34,Eje Cafetero,Legal,2-4M
+35-49,Valle del Cauca,Administración y finanzas,4-6M
+20-34,Antioquia,Tecnología,2-4M
+50+,Valle del Cauca,Administración y finanzas,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+35-49,Valle del Cauca,Administración y finanzas,2-4M
+35-49,Antioquia,Administración y finanzas,4-6M
+20-34,Antioquia,Tecnología,2-4M
+20-34,Antioquia,Diseño y construcción,4-6M
+50+,Bogotá D.C.,Administración y finanzas,4-6M
+50+,Antioquia,Comercio,2-4M
+20-34,Antioquia,Educación,2-4M
+50+,Valle del Cauca,Administración y finanzas,2-4M
+50+,Caribe,Comercio,4-6M
+50+,Antioquia,Salud,2-4M
+35-49,Antioquia,Salud,2-4M
+50+,Caribe,Administración y finanzas,4-6M
+35-49,Antioquia,Administración y finanzas,4-6M
+50+,Antioquia,Tecnología,2-4M
+35-49,Antioquia,Tecnología,2-4M
+35-49,Antioquia,Educación,2-4M
+20-34,Caribe,Administración y finanzas,0-2M
+50+,Antioquia,Tecnología,4-6M
+50+,Antioquia,Tecnología,2-4M
+35-49,Antioquia,Administración y finanzas,2-4M
+50+,Bogotá D.C.,Educación,2-4M
+50+,Antioquia,Educación,4-6M
+35-49,Antioquia,Tecnología,4-6M
+20-34,Antioquia,Educación,2-4M
+35-49,Eje Cafetero,Diseño y construcción,2-4M
+50+,Caribe,Comercio,2-4M
+35-49,Antioquia,Comercio,2-4M
+20-34,Antioquia,Diseño y construcción,2-4M
+20-34,Antioquia,Educación,0-2M
+35-49,Antioquia,Salud,4-6M
+50+,Antioquia,Salud,6-8M
+35-49,Eje Cafetero,Diseño y construcción,2-4M
+35-49,Antioquia,Administración y finanzas,2-4M
+50+,Eje Cafetero,Administración y finanzas,2-4M
+20-34,Antioquia,Tecnología,2-4M
+20-34,Caribe,Comercio,4-6M
+20-34,Antioquia,Salud,2-4M
+50+,Antioquia,Comercio,2-4M
+50+,Caribe,Salud,2-4M
+35-49,Antioquia,Salud,0-2M
+50+,Antioquia,Administración y finanzas,2-4M
+50+,Valle del Cauca,Administración y finanzas,4-6M
+35-49,Valle del Cauca,Administración y finanzas,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Diseño y construcción,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Comercio,2-4M
+20-34,Caribe,Comercio,0-2M
+50+,Caribe,Salud,2-4M
+35-49,Antioquia,Salud,2-4M
+50+,Antioquia,Comercio,2-4M
+20-34,Antioquia,Salud,2-4M
+35-49,Caribe,Tecnología,4-6M
+50+,Eje Cafetero,Administración y finanzas,2-4M
+20-34,Antioquia,Comercio,0-2M
+20-34,Antioquia,Educación,0-2M
+20-34,Antioquia,Administración y finanzas,2-4M
+20-34,Bogotá D.C.,Comercio,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+50+,Caribe,Tecnología,2-4M
+35-49,Antioquia,Salud,4-6M
+20-34,Caribe,Administración y finanzas,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+20-34,Bogotá D.C.,Comercio,2-4M
+20-34,Antioquia,Salud,2-4M
+50+,Antioquia,Administración y finanzas,8M+
+50+,Bogotá D.C.,Educación,4-6M
+20-34,Valle del Cauca,Administración y finanzas,2-4M
+35-49,Antioquia,Diseño y construcción,2-4M
+20-34,Eje Cafetero,Legal,4-6M
+35-49,Caribe,Administración y finanzas,2-4M
+35-49,Caribe,Tecnología,2-4M
+50+,Antioquia,Salud,2-4M
+50+,Antioquia,Administración y finanzas,4-6M
+50+,Antioquia,Tecnología,4-6M
+20-34,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Tecnología,4-6M
+50+,Antioquia,Salud,4-6M
+35-49,Valle del Cauca,Administración y finanzas,4-6M
+50+,Bogotá D.C.,Salud,2-4M
+35-49,Bogotá D.C.,Tecnología,2-4M
+50+,Antioquia,Salud,4-6M
+50+,Antioquia,Tecnología,2-4M
+50+,Antioquia,Educación,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Educación,4-6M
+35-49,Antioquia,Administración y finanzas,2-4M
+20-34,Caribe,Administración y finanzas,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Salud,0-2M
+20-34,Valle del Cauca,Administración y finanzas,4-6M
+50+,Antioquia,Administración y finanzas,8M+
+50+,Antioquia,Tecnología,2-4M
+35-49,Antioquia,Salud,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+20-34,Bogotá D.C.,Salud,0-2M
+50+,Valle del Cauca,Administración y finanzas,0-2M
+50+,Antioquia,Tecnología,2-4M
+20-34,Antioquia,Salud,2-4M
+35-49,Antioquia,Educación,2-4M
+50+,Caribe,Tecnología,2-4M
+50+,Antioquia,Administración y finanzas,4-6M
+50+,Antioquia,Comercio,4-6M
+35-49,Antioquia,Salud,2-4M
+20-34,Antioquia,Educación,4-6M
+20-34,Caribe,Administración y finanzas,2-4M
+20-34,Antioquia,Administración y finanzas,4-6M
+35-49,Caribe,Administración y finanzas,2-4M
+50+,Bogotá D.C.,Salud,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Administración y finanzas,6-8M
+35-49,Antioquia,Administración y finanzas,4-6M
+20-34,Antioquia,Comercio,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Comercio,4-6M
+50+,Antioquia,Salud,6-8M
+50+,Antioquia,Educación,4-6M
+50+,Bogotá D.C.,Salud,4-6M
+35-49,Bogotá D.C.,Administración y finanzas,2-4M
+50+,Antioquia,Educación,4-6M
+50+,Eje Cafetero,Educación,4-6M
+35-49,Antioquia,Administración y finanzas,4-6M
+50+,Bogotá D.C.,Administración y finanzas,4-6M
+20-34,Caribe,Comercio,2-4M
+50+,Eje Cafetero,Administración y finanzas,2-4M
+35-49,Bogotá D.C.,Tecnología,4-6M
+35-49,Eje Cafetero,Diseño y construcción,2-4M
+20-34,Antioquia,Educación,2-4M
+35-49,Caribe,Tecnología,2-4M
+20-34,Valle del Cauca,Administración y finanzas,2-4M
+50+,Caribe,Administración y finanzas,2-4M
+50+,Eje Cafetero,Educación,4-6M
+50+,Bogotá D.C.,Administración y finanzas,2-4M
+50+,Antioquia,Tecnología,6-8M
+50+,Antioquia,Diseño y construcción,4-6M
+20-34,Antioquia,Diseño y construcción,2-4M
+20-34,Antioquia,Comercio,4-6M
+50+,Bogotá D.C.,Educación,2-4M
+50+,Caribe,Tecnología,2-4M
+50+,Bogotá D.C.,Educación,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Comercio,2-4M
+20-34,Antioquia,Salud,2-4M
+20-34,Antioquia,Tecnología,4-6M
+35-49,Caribe,Tecnología,4-6M
+35-49,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Administración y finanzas,4-6M
+50+,Valle del Cauca,Administración y finanzas,2-4M
+20-34,Bogotá D.C.,Salud,2-4M
+50+,Antioquia,Educación,4-6M
+50+,Bogotá D.C.,Salud,8M+
+35-49,Bogotá D.C.,Tecnología,2-4M
+35-49,Eje Cafetero,Diseño y construcción,0-2M
+50+,Antioquia,Diseño y construcción,4-6M
+50+,Eje Cafetero,Administración y finanzas,4-6M
+50+,Antioquia,Salud,4-6M
+20-34,Antioquia,Comercio,2-4M
+50+,Bogotá D.C.,Administración y finanzas,4-6M
+50+,Antioquia,Tecnología,4-6M
+50+,Bogotá D.C.,Administración y finanzas,4-6M
+35-49,Bogotá D.C.,Administración y finanzas,4-6M
+50+,Antioquia,Comercio,4-6M
+50+,Caribe,Tecnología,2-4M
+50+,Antioquia,Administración y finanzas,4-6M
+50+,Bogotá D.C.,Administración y finanzas,6-8M
+50+,Antioquia,Administración y finanzas,6-8M
+50+,Antioquia,Salud,4-6M
+35-49,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Salud,2-4M
+35-49,Antioquia,Administración y finanzas,2-4M
+50+,Caribe,Administración y finanzas,2-4M
+50+,Antioquia,Educación,4-6M
+20-34,Antioquia,Educación,2-4M
+20-34,Antioquia,Diseño y construcción,4-6M
+20-34,Antioquia,Educación,0-2M
+20-34,Antioquia,Legal,4-6M
+20-34,Antioquia,Tecnología,2-4M
+50+,Antioquia,Tecnología,2-4M
+50+,Antioquia,Administración y finanzas,4-6M
+35-49,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Diseño y construcción,2-4M
+50+,Bogotá D.C.,Salud,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Tecnología,2-4M
+35-49,Antioquia,Diseño y construcción,6-8M
+20-34,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Salud,4-6M
+50+,Eje Cafetero,Administración y finanzas,2-4M
+50+,Caribe,Administración y finanzas,2-4M
+20-34,Antioquia,Tecnología,2-4M
+35-49,Antioquia,Comercio,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Diseño y construcción,2-4M
+35-49,Caribe,Administración y finanzas,2-4M
+50+,Bogotá D.C.,Administración y finanzas,4-6M
+35-49,Antioquia,Comercio,2-4M
+20-34,Antioquia,Diseño y construcción,2-4M
+50+,Caribe,Comercio,4-6M
+35-49,Antioquia,Comercio,4-6M
+50+,Eje Cafetero,Educación,2-4M
+50+,Antioquia,Administración y finanzas,6-8M
+50+,Antioquia,Diseño y construcción,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+50+,Bogotá D.C.,Administración y finanzas,6-8M
+50+,Caribe,Salud,4-6M
+35-49,Antioquia,Tecnología,2-4M
+35-49,Antioquia,Salud,4-6M
+35-49,Antioquia,Tecnología,8M+
+50+,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Administración y finanzas,4-6M
+20-34,Antioquia,Salud,2-4M
+20-34,Antioquia,Educación,0-2M
+50+,Antioquia,Comercio,4-6M
+50+,Antioquia,Comercio,6-8M
+20-34,Antioquia,Legal,2-4M
+20-34,Bogotá D.C.,Salud,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+50+,Caribe,Salud,4-6M
+50+,Antioquia,Salud,4-6M
+50+,Valle del Cauca,Administración y finanzas,2-4M
+35-49,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+20-34,Caribe,Comercio,2-4M
+20-34,Eje Cafetero,Administración y finanzas,4-6M
+50+,Caribe,Administración y finanzas,2-4M
+35-49,Antioquia,Diseño y construcción,4-6M
+50+,Antioquia,Tecnología,2-4M
+50+,Antioquia,Tecnología,4-6M
+50+,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Diseño y construcción,4-6M
+35-49,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+50+,Caribe,Salud,2-4M
+50+,Caribe,Comercio,2-4M
+35-49,Caribe,Tecnología,4-6M
+50+,Caribe,Tecnología,4-6M
+35-49,Antioquia,Administración y finanzas,4-6M
+35-49,Bogotá D.C.,Tecnología,2-4M
+50+,Eje Cafetero,Educación,0-2M
+35-49,Antioquia,Tecnología,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+20-34,Antioquia,Tecnología,2-4M
+50+,Antioquia,Comercio,2-4M
+50+,Antioquia,Administración y finanzas,4-6M
+50+,Antioquia,Administración y finanzas,4-6M
+35-49,Antioquia,Comercio,4-6M
+35-49,Antioquia,Administración y finanzas,2-4M
+35-49,Bogotá D.C.,Administración y finanzas,2-4M
+35-49,Antioquia,Diseño y construcción,4-6M
+35-49,Antioquia,Tecnología,4-6M
+50+,Antioquia,Administración y finanzas,4-6M
+20-34,Antioquia,Educación,2-4M
+50+,Antioquia,Comercio,4-6M
+50+,Caribe,Administración y finanzas,2-4M
+50+,Bogotá D.C.,Administración y finanzas,4-6M
+50+,Antioquia,Administración y finanzas,4-6M
+50+,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Tecnología,4-6M
+35-49,Antioquia,Administración y finanzas,2-4M
+20-34,Caribe,Comercio,2-4M
+20-34,Antioquia,Educación,2-4M
+50+,Bogotá D.C.,Administración y finanzas,2-4M
+50+,Antioquia,Salud,4-6M
+35-49,Antioquia,Tecnología,2-4M
+20-34,Caribe,Administración y finanzas,0-2M
+50+,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Administración y finanzas,4-6M
+20-34,Eje Cafetero,Administración y finanzas,4-6M
+50+,Antioquia,Educación,2-4M
+50+,Eje Cafetero,Administración y finanzas,2-4M
+50+,Antioquia,Tecnología,4-6M
+50+,Antioquia,Educación,2-4M
+50+,Antioquia,Tecnología,4-6M
+35-49,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Educación,2-4M
+50+,Antioquia,Comercio,4-6M
+20-34,Antioquia,Tecnología,2-4M
+20-34,Bogotá D.C.,Comercio,2-4M
+20-34,Caribe,Administración y finanzas,2-4M
+35-49,Antioquia,Diseño y construcción,2-4M
+50+,Antioquia,Salud,4-6M
+35-49,Valle del Cauca,Administración y finanzas,0-2M
+50+,Caribe,Tecnología,2-4M
+50+,Antioquia,Educación,2-4M
+35-49,Antioquia,Tecnología,4-6M
+20-34,Eje Cafetero,Administración y finanzas,2-4M
+50+,Antioquia,Educación,4-6M
+20-34,Antioquia,Tecnología,4-6M
+20-34,Antioquia,Legal,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Comercio,2-4M
+20-34,Antioquia,Administración y finanzas,4-6M
+50+,Bogotá D.C.,Administración y finanzas,4-6M
+35-49,Antioquia,Administración y finanzas,6-8M
+35-49,Eje Cafetero,Diseño y construcción,0-2M
+20-34,Antioquia,Legal,2-4M
+50+,Eje Cafetero,Administración y finanzas,4-6M
+20-34,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Tecnología,2-4M
+20-34,Antioquia,Salud,0-2M
+20-34,Antioquia,Diseño y construcción,2-4M
+50+,Antioquia,Educación,2-4M
+35-49,Antioquia,Administración y finanzas,0-2M
+20-34,Antioquia,Tecnología,2-4M
+20-34,Valle del Cauca,Administración y finanzas,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+20-34,Valle del Cauca,Administración y finanzas,2-4M
+50+,Eje Cafetero,Administración y finanzas,4-6M
+20-34,Antioquia,Administración y finanzas,4-6M
+20-34,Antioquia,Comercio,2-4M
+20-34,Antioquia,Legal,2-4M
+20-34,Bogotá D.C.,Salud,2-4M
+20-34,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Comercio,4-6M
+50+,Caribe,Tecnología,2-4M
+20-34,Bogotá D.C.,Comercio,2-4M
+35-49,Bogotá D.C.,Tecnología,4-6M
+35-49,Antioquia,Educación,2-4M
+20-34,Eje Cafetero,Legal,0-2M
+20-34,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Salud,0-2M
+20-34,Antioquia,Diseño y construcción,4-6M
+50+,Antioquia,Tecnología,4-6M
+35-49,Antioquia,Comercio,4-6M
+20-34,Caribe,Comercio,4-6M
+50+,Antioquia,Salud,2-4M
+50+,Antioquia,Salud,4-6M
+50+,Bogotá D.C.,Administración y finanzas,6-8M
+20-34,Antioquia,Tecnología,2-4M
+50+,Eje Cafetero,Administración y finanzas,6-8M
+35-49,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Salud,2-4M
+50+,Antioquia,Tecnología,4-6M
+35-49,Antioquia,Administración y finanzas,4-6M
+20-34,Bogotá D.C.,Comercio,0-2M
+20-34,Eje Cafetero,Administración y finanzas,2-4M
+35-49,Antioquia,Administración y finanzas,2-4M
+35-49,Antioquia,Administración y finanzas,2-4M
+35-49,Bogotá D.C.,Administración y finanzas,4-6M
+20-34,Eje Cafetero,Administración y finanzas,2-4M
+50+,Valle del Cauca,Administración y finanzas,2-4M
+35-49,Antioquia,Salud,4-6M
+35-49,Antioquia,Comercio,4-6M
+50+,Antioquia,Administración y finanzas,4-6M
+50+,Antioquia,Tecnología,4-6M
+50+,Antioquia,Educación,4-6M
+20-34,Antioquia,Legal,2-4M
+50+,Antioquia,Educación,4-6M
+35-49,Antioquia,Salud,4-6M
+50+,Caribe,Salud,2-4M
+50+,Antioquia,Administración y finanzas,4-6M
+50+,Antioquia,Administración y finanzas,6-8M
+20-34,Antioquia,Administración y finanzas,0-2M
+50+,Caribe,Tecnología,2-4M
+50+,Antioquia,Administración y finanzas,2-4M
+50+,Antioquia,Tecnología,2-4M
+50+,Antioquia,Administración y finanzas,4-6M
+35-49,Antioquia,Tecnología,2-4M
+20-34,Antioquia,Comercio,2-4M
+50+,Antioquia,Educación,2-4M
+20-34,Antioquia,Diseño y construcción,4-6M
+20-34,Eje Cafetero,Administración y finanzas,2-4M
+35-49,Bogotá D.C.,Salud,2-4M
+50+,Eje Cafetero,Educación,2-4M
+50+,Caribe,Comercio,6-8M
+50+,Bogotá D.C.,Salud,2-4M
+50+,Antioquia,Diseño y construcción,2-4M
+35-49,Bogotá D.C.,Salud,4-6M
+20-34,Antioquia,Salud,2-4M
+20-34,Antioquia,Comercio,6-8M
+20-34,Caribe,Comercio,2-4M

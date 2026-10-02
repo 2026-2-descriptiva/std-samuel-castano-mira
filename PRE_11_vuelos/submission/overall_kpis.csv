@@ -1,0 +1,11 @@
+metric,value
+period,2006-2008
+carriers,21
+scheduled_flights,21607106
+cancelled_flights,420175
+operated_flights,21186931
+delayed_departure_15_flights,4324953
+cancel_rate,0.0194
+delay_rate,0.2041
+avg_delay_min_per_operated_flight,12.79
+avg_delay_min_per_delayed_flight_upper_bound,62.65

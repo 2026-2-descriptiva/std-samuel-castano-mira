@@ -1,0 +1,21 @@
+rank,ProductID,ProductName,Category,orders,units,revenue,returned_orders,returned_revenue,return_rate,revenue_share
+1,309,Product_309,Electronics,7,27,13879.47,2,4276.55,0.2857,0.0108
+2,297,Product_297,Electronics,10,32,13531.34,6,7766.31,0.6,0.0106
+3,147,Product_147,Home & Garden,5,20,12533.59,2,1920.04,0.4,0.0098
+4,390,Product_390,Fashion,7,24,11816.12,5,8239.32,0.7143,0.0092
+5,193,Product_193,Electronics,6,20,11493.08,4,8216.32,0.6667,0.009
+6,205,Product_205,Electronics,6,19,11101.78,4,8664.42,0.6667,0.0087
+7,248,Product_248,Fashion,6,20,10009.65,5,7175.97,0.8333,0.0078
+8,326,Product_326,Electronics,5,19,9151.85,4,6626.29,0.8,0.0071
+9,183,Product_183,Home & Garden,6,20,9148.93,5,7556.01,0.8333,0.0071
+10,200,Product_200,Home & Garden,6,23,9063.65,3,2606.19,0.5,0.0071
+11,174,Product_174,Fashion,5,21,9051.66,1,2791.8,0.2,0.0071
+12,414,Product_414,Electronics,4,18,8975.5,3,7227.22,0.75,0.007
+13,489,Product_489,Electronics,7,23,8930.17,6,8187.68,0.8571,0.007
+14,496,Product_496,Home & Garden,8,25,8881.6,4,2530.49,0.5,0.0069
+15,138,Product_138,Home & Garden,4,13,8741.06,3,6133.86,0.75,0.0068
+16,443,Product_443,Fashion,5,15,8512.12,2,5636.57,0.4,0.0066
+17,447,Product_447,Electronics,6,16,8505.67,3,3677.02,0.5,0.0066
+18,228,Product_228,Fashion,6,20,8466.53,2,2685.4,0.3333,0.0066
+19,356,Product_356,Electronics,4,14,8463.13,3,5261.63,0.75,0.0066
+20,470,Product_470,Electronics,5,14,8183.91,3,3462.15,0.6,0.0064

@@ -1,0 +1,21 @@
+dimension,value,orders,returned_orders,revenue,returned_revenue,return_rate,lift,risk_level
+PaymentMethod,Cash,311,176,418676.17,234872.46,0.5659,1.097,normal
+Quantity,1,178,97,72198.12,39316.91,0.5449,1.056,normal
+SalesChannel,Website,323,175,423478.55,221554.12,0.5418,1.05,normal
+Quantity,2,195,104,161219.8,89436.98,0.5333,1.034,normal
+SalesChannel,Mobile App,338,179,435831.09,240448.37,0.5296,1.026,normal
+price_band,Q1 bajo,250,132,93070.62,49948.49,0.528,1.023,normal
+price_band,Q2,250,131,247558.56,125398.98,0.524,1.016,normal
+Category,Fashion,343,179,451214.5,225784.37,0.5219,1.011,normal
+day_type,Entre semana,729,379,937081.93,471986.95,0.5199,1.008,normal
+Quantity,5,197,102,403491.15,200992.25,0.5178,1.003,normal
+Category,Home & Garden,321,165,389060.81,191602.16,0.514,0.996,normal
+price_band,Q4 alto,250,128,545935.25,269972.42,0.512,0.992,normal
+Category,Electronics,336,172,440470.24,226316.49,0.5119,0.992,normal
+day_type,Fin de semana,271,137,343663.62,171716.07,0.5055,0.98,normal
+price_band,Q3,250,125,394181.12,198383.13,0.5,0.969,normal
+PaymentMethod,Credit Card,343,170,411241.94,185103.03,0.4956,0.96,normal
+Quantity,4,226,112,381740.52,192571.12,0.4956,0.96,normal
+Quantity,3,204,101,262095.96,121385.76,0.4951,0.959,normal
+PaymentMethod,PayPal,346,170,450827.44,223727.53,0.4913,0.952,normal
+SalesChannel,In-Store,339,162,421435.91,181700.53,0.4779,0.926,normal

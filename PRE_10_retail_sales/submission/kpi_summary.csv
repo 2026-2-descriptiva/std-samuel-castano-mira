@@ -1,0 +1,14 @@
+metric,value
+orders,1000
+units_sold,3069
+revenue,1280745.55
+avg_ticket,1280.75
+unique_customers,428
+unique_products,371
+orders_per_customer,2.34
+returned_orders,516
+return_rate,0.516
+returned_revenue,643703.02
+net_revenue,637042.53
+first_order_date,2022-01-01
+last_order_date,2022-08-31

@@ -1,0 +1,4 @@
+PaymentMethod,orders,units,revenue,returned_orders,returned_revenue,net_revenue,avg_ticket,return_rate,revenue_share
+PayPal,346,1050,450827.44,170,223727.53,227099.91,1302.97,0.4913,0.352
+Cash,311,984,418676.17,176,234872.46,183803.71,1346.23,0.5659,0.3269
+Credit Card,343,1035,411241.94,170,185103.03,226138.91,1198.96,0.4956,0.3211

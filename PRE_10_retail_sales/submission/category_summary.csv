@@ -1,0 +1,4 @@
+Category,orders,units,revenue,returned_orders,returned_revenue,net_revenue,avg_ticket,return_rate,revenue_share
+Fashion,343,1037,451214.5,179,225784.37,225430.13,1315.49,0.5219,0.3523
+Electronics,336,1043,440470.24,172,226316.49,214153.75,1310.92,0.5119,0.3439
+Home & Garden,321,989,389060.81,165,191602.16,197458.65,1212.03,0.514,0.3038

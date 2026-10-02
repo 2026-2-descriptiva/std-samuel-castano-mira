@@ -1,0 +1,10 @@
+Category,SalesChannel,orders,units,revenue,returned_orders,returned_revenue,net_revenue,avg_ticket,return_rate,revenue_share,priority
+Fashion,Mobile App,131,397,167679.44,68,87672.87,80006.57,1280.0,0.5191,0.1309,alta
+Fashion,Website,112,344,161321.82,61,83604.72,77717.1,1440.37,0.5446,0.126,alta
+Electronics,Mobile App,108,323,152164.2,54,78806.27,73357.93,1408.93,0.5,0.1188,media
+Electronics,In-Store,121,383,158549.84,59,74284.36,84265.48,1310.33,0.4876,0.1238,media
+Home & Garden,Mobile App,99,315,115987.45,57,73969.23,42018.22,1171.59,0.5758,0.0906,media
+Electronics,Website,107,337,129756.2,59,73225.86,56530.34,1212.67,0.5514,0.1013,media
+Home & Garden,Website,104,323,132400.53,55,64723.54,67676.99,1273.08,0.5288,0.1034,media
+Home & Garden,In-Store,118,351,140672.83,53,52909.39,87763.44,1192.14,0.4492,0.1098,media
+Fashion,In-Store,100,296,122213.24,50,54506.78,67706.46,1222.13,0.5,0.0954,baja

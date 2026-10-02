@@ -1,0 +1,3 @@
+day_type,orders,units,revenue,returned_orders,returned_revenue,net_revenue,avg_ticket,return_rate,revenue_share,calendar_days,avg_daily_revenue
+Entre semana,729,2230,937081.93,379,471986.95,465094.98,1285.43,0.5199,0.7317,173,5416.66
+Fin de semana,271,839,343663.62,137,171716.07,171947.55,1268.13,0.5055,0.2683,70,4909.48

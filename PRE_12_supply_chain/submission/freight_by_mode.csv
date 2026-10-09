@@ -1,0 +1,20 @@
+mode,freight_status,lines,freight_usd,avg_freight_usd,median_freight_usd,share_of_mode_lines,freight_usd_per_kg
+Air,Con flete,4115,43038623.5,10458.96,4764.16,0.6732,5.263
+Air,Ver otra línea,1474,0.0,,,0.2411,
+Air,Incluido en costo,334,0.0,,,0.0546,
+Air,Facturado aparte,190,0.0,,,0.0311,
+Air Charter,Con flete,424,8926108.48,21052.14,15322.73,0.6523,2.733
+Air Charter,Ver otra línea,153,0.0,,,0.2354,
+Air Charter,Incluido en costo,71,0.0,,,0.1092,
+Air Charter,Facturado aparte,2,0.0,,,0.0031,
+Ocean,Con flete,282,3590728.79,12733.08,9520.98,0.7601,1.851
+Ocean,Ver otra línea,44,0.0,,,0.1186,
+Ocean,Incluido en costo,30,0.0,,,0.0809,
+Ocean,Facturado aparte,15,0.0,,,0.0404,
+Sin dato,Con flete,211,1396700.41,6619.43,2921.0,0.5861,3.608
+Sin dato,Ver otra línea,100,0.0,,,0.2778,
+Sin dato,Incluido en costo,49,0.0,,,0.1361,
+Truck,Con flete,1166,11865688.23,10176.41,5985.84,0.412,1.592
+Truck,Incluido en costo,958,0.0,,,0.3385,
+Truck,Ver otra línea,674,0.0,,,0.2382,
+Truck,Facturado aparte,32,0.0,,,0.0113,

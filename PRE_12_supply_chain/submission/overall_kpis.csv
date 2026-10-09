@@ -1,0 +1,16 @@
+metric,value
+order_lines,10324
+countries,43
+vendors,73
+total_quantity,189265090
+total_line_value_usd,1627584457.29
+lines_with_numeric_freight,6198
+freight_coverage,0.6003
+total_freight_usd_known,68817849.41
+freight_pct_of_value_known_lines,0.0579
+late_lines,1186
+late_rate,0.1149
+avg_delay_days,-6.02
+avg_delay_days_when_late,21.37
+first_delivery,2006-05-02
+last_delivery,2015-09-14

@@ -1,0 +1,17 @@
+Cluster  Cantidad de palabras clave    Porcentaje    Principales palabras clave
+---------------------------------------------------------------------------------------------------------------------
+    1    14                             35.0 %       blockchain, artificial intelligence, technology, digital
+                                                     transformation, digitalization, real estate technology, property
+                                                     technology, big data, technology adoption, commercial real estate,
+                                                     venture capital, real estate innovation.
+
+    2    13                             32.5 %       real estate, machine learning, housing, fintech, innovation,
+                                                     financialization, australia, sustainability, covid-19, property
+                                                     management, algorithms, digitization.
+
+    3    6                              15.0 %       technology transfer, intellectual property, malaysia, smart real
+                                                     estate, bibliometric analysis, open innovation.
+
+    4    4                              10.0 %       proptech, property, automation, platform real estate.
+
+    5    3                               7.5 %       metaverse, smart contracts, digital real estate.

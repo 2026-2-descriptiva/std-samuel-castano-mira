@@ -1,0 +1,12 @@
+Cluster  Cantidad de paises            Porcentaje    Principales paises
+---------------------------------------------------------------------------------------------------------------------
+    1    7                              28.0 %       Germany, Russian Federation, Finland, Indonesia, Brazil, Poland,
+                                                     Portugal.
+
+    2    6                              24.0 %       United Kingdom, India, South Korea, France, Sweden, Japan.
+
+    3    5                              20.0 %       United States, China, Australia, Malaysia, Netherlands.
+
+    4    4                              16.0 %       Spain, Thailand, Jordan, Morocco.
+
+    5    3                              12.0 %       Italy, United Arab Emirates, Canada.

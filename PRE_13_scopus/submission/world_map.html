@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ec996eec749cb5dbc8f0ea6d89ea72ee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ec996eec749cb5dbc8f0ea6d89ea72ee" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ec996eec749cb5dbc8f0ea6d89ea72ee = L.map(
+                "map_ec996eec749cb5dbc8f0ea6d89ea72ee",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7722dd0c1e67d9f5852640c112d8e8f6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7722dd0c1e67d9f5852640c112d8e8f6.addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            var circle_marker_dbf0b6e3ef5a132c7d68c48c050fb876 = L.circleMarker(
+                [39.8, -98.6],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.052558883257653, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_dbf0b6e3ef5a132c7d68c48c050fb876.bindTooltip(
+                `<div>
+                     United States: 75 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_228fc73520fa42d78913fcc1f063aa23 = L.circleMarker(
+                [54.0, -2.0],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.738995596476478, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_228fc73520fa42d78913fcc1f063aa23.bindTooltip(
+                `<div>
+                     United Kingdom: 39 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c9cd5df4744c19fac5c3e000059d67e3 = L.circleMarker(
+                [35.9, 104.2],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.200000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_c9cd5df4744c19fac5c3e000059d67e3.bindTooltip(
+                `<div>
+                     China: 36 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_366a2f016e831f20ddce738eaedd5e9a = L.circleMarker(
+                [-25.3, 133.8],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.24908159822605, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_366a2f016e831f20ddce738eaedd5e9a.bindTooltip(
+                `<div>
+                     Australia: 31 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_13ee1430302667f3b5fb5796a92827b7 = L.circleMarker(
+                [21.1, 78.0],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.431535329954592, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_13ee1430302667f3b5fb5796a92827b7.bindTooltip(
+                `<div>
+                     India: 27 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7eb35204cd257eea0faa47d135b11076 = L.circleMarker(
+                [51.2, 10.4],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.333809511662427, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_7eb35204cd257eea0faa47d135b11076.bindTooltip(
+                `<div>
+                     Germany: 18 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_65473efde2833771c9a334d44a464799 = L.circleMarker(
+                [42.8, 12.6],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.333809511662427, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_65473efde2833771c9a334d44a464799.bindTooltip(
+                `<div>
+                     Italy: 18 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_76173d9fc81bce22abcbf1512fa6ac6a = L.circleMarker(
+                [40.5, -3.7],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.8, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_76173d9fc81bce22abcbf1512fa6ac6a.bindTooltip(
+                `<div>
+                     Spain: 16 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_903fa0f3bb11154f355c7bb37587c5e8 = L.circleMarker(
+                [4.2, 102.0],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.520563361656318, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_903fa0f3bb11154f355c7bb37587c5e8.bindTooltip(
+                `<div>
+                     Malaysia: 15 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f04dfdfe40157d3379fe13e38cb07667 = L.circleMarker(
+                [61.5, 105.3],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.932212806020777, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_f04dfdfe40157d3379fe13e38cb07667.bindTooltip(
+                `<div>
+                     Russian Federation: 13 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_29ab694357a5989476bc8895b5eb058d = L.circleMarker(
+                [36.5, 127.9],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.932212806020777, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_29ab694357a5989476bc8895b5eb058d.bindTooltip(
+                `<div>
+                     South Korea: 13 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eab30cde04068a9c8372b5ece57f2814 = L.circleMarker(
+                [23.4, 53.8],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.957010852370436, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_eab30cde04068a9c8372b5ece57f2814.bindTooltip(
+                `<div>
+                     United Arab Emirates: 10 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5aa371b642848410584bea09285f5f9c = L.circleMarker(
+                [56.1, -106.3],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.22253967444162, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_5aa371b642848410584bea09285f5f9c.bindTooltip(
+                `<div>
+                     Canada: 8 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f91e1d5f0688aa297c8b597389336a1b = L.circleMarker(
+                [46.2, 2.2],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.820652884342099, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_f91e1d5f0688aa297c8b597389336a1b.bindTooltip(
+                `<div>
+                     France: 7 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8597f168b356c73f9ecb01037a8598e0 = L.circleMarker(
+                [61.9, 25.7],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.820652884342099, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_8597f168b356c73f9ecb01037a8598e0.bindTooltip(
+                `<div>
+                     Finland: 7 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b5709495a8820763e2468009fa6e038e = L.circleMarker(
+                [60.1, 18.6],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.820652884342099, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_b5709495a8820763e2468009fa6e038e.bindTooltip(
+                `<div>
+                     Sweden: 7 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_244958a6c4c6fd1b9ffcae2de5cdf83d = L.circleMarker(
+                [-0.8, 113.9],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.388877434122993, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_244958a6c4c6fd1b9ffcae2de5cdf83d.bindTooltip(
+                `<div>
+                     Indonesia: 6 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_72ba0eec8fd6be9dd6810b465d7bc210 = L.circleMarker(
+                [52.1, 5.3],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.388877434122993, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_72ba0eec8fd6be9dd6810b465d7bc210.bindTooltip(
+                `<div>
+                     Netherlands: 6 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5d5f2f6aa829c81867890a998b150e7d = L.circleMarker(
+                [-14.2, -51.9],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.388877434122993, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_5d5f2f6aa829c81867890a998b150e7d.bindTooltip(
+                `<div>
+                     Brazil: 6 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2ccb4c7ebea903795539b815a1654665 = L.circleMarker(
+                [15.9, 100.99],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.919349550499538, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_2ccb4c7ebea903795539b815a1654665.bindTooltip(
+                `<div>
+                     Thailand: 5 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_543f9cec310012267acb2b7d465983c2 = L.circleMarker(
+                [51.9, 19.1],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.919349550499538, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_543f9cec310012267acb2b7d465983c2.bindTooltip(
+                `<div>
+                     Poland: 5 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_304e38126704ef2ac0e9dd39b8487a6e = L.circleMarker(
+                [39.4, -8.2],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.919349550499538, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_304e38126704ef2ac0e9dd39b8487a6e.bindTooltip(
+                `<div>
+                     Portugal: 5 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_14e07b31c7a61cd9e9e7ffcea9325fab = L.circleMarker(
+                [36.2, 138.3],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.919349550499538, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_14e07b31c7a61cd9e9e7ffcea9325fab.bindTooltip(
+                `<div>
+                     Japan: 5 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0ea48da110329babc147c06c092ff5b5 = L.circleMarker(
+                [30.6, 36.2],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_0ea48da110329babc147c06c092ff5b5.bindTooltip(
+                `<div>
+                     Jordan: 4 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bc27eae768b471fdf51b5e0bf05f3c9c = L.circleMarker(
+                [31.8, -7.1],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_bc27eae768b471fdf51b5e0bf05f3c9c.bindTooltip(
+                `<div>
+                     Morocco: 4 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_95bcf9255aa664846a20b54e606cd2fe = L.circleMarker(
+                [26.8, 30.8],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_95bcf9255aa664846a20b54e606cd2fe.bindTooltip(
+                `<div>
+                     Egypt: 4 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_08c68f11a6d0da2ab1d6c660ad8fd394 = L.circleMarker(
+                [1.35, 103.8],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_08c68f11a6d0da2ab1d6c660ad8fd394.bindTooltip(
+                `<div>
+                     Singapore: 4 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e8d356896d8fc3bb11c13869b53a55c = L.circleMarker(
+                [-30.6, 22.9],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_1e8d356896d8fc3bb11c13869b53a55c.bindTooltip(
+                `<div>
+                     South Africa: 4 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b485f6bde970ed68538816b614531b08 = L.circleMarker(
+                [60.5, 8.5],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_b485f6bde970ed68538816b614531b08.bindTooltip(
+                `<div>
+                     Norway: 4 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c70d5b179361195ea3a57441b38a30ee = L.circleMarker(
+                [-40.9, 174.9],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_c70d5b179361195ea3a57441b38a30ee.bindTooltip(
+                `<div>
+                     New Zealand: 4 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_63168eed729425aa5e3e34a366dc5e58 = L.circleMarker(
+                [38.96, 35.2],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_63168eed729425aa5e3e34a366dc5e58.bindTooltip(
+                `<div>
+                     Turkey: 4 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_664d8177fabf4aed2d3a799b2df446c9 = L.circleMarker(
+                [32.4, 53.7],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.4, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_664d8177fabf4aed2d3a799b2df446c9.bindTooltip(
+                `<div>
+                     Iran: 4 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_850fd47965fb42b662a87493035ae05b = L.circleMarker(
+                [23.9, 45.1],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.810511776651531, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_850fd47965fb42b662a87493035ae05b.bindTooltip(
+                `<div>
+                     Saudi Arabia: 3 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_233cffd728e79f7980a384d5028241fa = L.circleMarker(
+                [14.1, 108.3],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.810511776651531, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_233cffd728e79f7980a384d5028241fa.bindTooltip(
+                `<div>
+                     Viet Nam: 3 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dac1e95967de3b779622e95e48fa0e63 = L.circleMarker(
+                [23.7, 121.0],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.810511776651531, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_dac1e95967de3b779622e95e48fa0e63.bindTooltip(
+                `<div>
+                     Taiwan: 3 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fdf512a4e35182d565f14e1f93272a71 = L.circleMarker(
+                [22.3, 114.2],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.810511776651531, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_fdf512a4e35182d565f14e1f93272a71.bindTooltip(
+                `<div>
+                     Hong Kong: 3 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6b728c88b762b8b9a4a40646a2310b43 = L.circleMarker(
+                [47.2, 19.5],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_6b728c88b762b8b9a4a40646a2310b43.bindTooltip(
+                `<div>
+                     Hungary: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e6441e49fe5cd76efd7d0dd9df6bb4de = L.circleMarker(
+                [28.0, 1.7],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_e6441e49fe5cd76efd7d0dd9df6bb4de.bindTooltip(
+                `<div>
+                     Algeria: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9dab471c322b3b0d9579af0b75730e8f = L.circleMarker(
+                [45.9, 24.97],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_9dab471c322b3b0d9579af0b75730e8f.bindTooltip(
+                `<div>
+                     Romania: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fe44f1a7b52b3a4b27df1dca177a8046 = L.circleMarker(
+                [21.5, 55.9],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_fe44f1a7b52b3a4b27df1dca177a8046.bindTooltip(
+                `<div>
+                     Oman: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_624c66af39fa7b566ae8dc9b0d8c6e94 = L.circleMarker(
+                [53.7, 27.95],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_624c66af39fa7b566ae8dc9b0d8c6e94.bindTooltip(
+                `<div>
+                     Belarus: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cc14d22ef8b3c54aa44f39066fcce947 = L.circleMarker(
+                [33.9, 9.5],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_cc14d22ef8b3c54aa44f39066fcce947.bindTooltip(
+                `<div>
+                     Tunisia: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_01c0b79ba76b1a6351055787244a67ac = L.circleMarker(
+                [33.2, 43.7],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_01c0b79ba76b1a6351055787244a67ac.bindTooltip(
+                `<div>
+                     Iraq: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3b17a3315bab923260ee4d516b2f3e37 = L.circleMarker(
+                [48.7, 19.7],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_3b17a3315bab923260ee4d516b2f3e37.bindTooltip(
+                `<div>
+                     Slovakia: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_139fd6983c8dbbf0325aa599dbd29eb0 = L.circleMarker(
+                [9.1, 8.7],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_139fd6983c8dbbf0325aa599dbd29eb0.bindTooltip(
+                `<div>
+                     Nigeria: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d059f9467d0e85e80c4797590b2a5848 = L.circleMarker(
+                [23.6, -102.6],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_d059f9467d0e85e80c4797590b2a5848.bindTooltip(
+                `<div>
+                     Mexico: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c2a7a66b003c8d5f717f21391ec95f8b = L.circleMarker(
+                [4.6, -74.3],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_c2a7a66b003c8d5f717f21391ec95f8b.bindTooltip(
+                `<div>
+                     Colombia: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f10f08a48092738743ba900618e161f6 = L.circleMarker(
+                [56.3, 9.5],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_f10f08a48092738743ba900618e161f6.bindTooltip(
+                `<div>
+                     Denmark: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e5ab7d515c66ef8c19cf38b4d8ba7e8d = L.circleMarker(
+                [55.2, 23.9],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_e5ab7d515c66ef8c19cf38b4d8ba7e8d.bindTooltip(
+                `<div>
+                     Lithuania: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8be01d2b082e7151513a42c5c59441da = L.circleMarker(
+                [45.1, 15.2],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_8be01d2b082e7151513a42c5c59441da.bindTooltip(
+                `<div>
+                     Croatia: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d53aacdb4c3424dc272f7ec9ca612848 = L.circleMarker(
+                [30.4, 69.3],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.11126983722081, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_d53aacdb4c3424dc272f7ec9ca612848.bindTooltip(
+                `<div>
+                     Pakistan: 2 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_407ebc6fc8e9f3de0f8d90ba08d50f41 = L.circleMarker(
+                [9.7, -83.8],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_407ebc6fc8e9f3de0f8d90ba08d50f41.bindTooltip(
+                `<div>
+                     Costa Rica: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_931d32a43629f9ff825847a5f545f877 = L.circleMarker(
+                [35.1, 33.4],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_931d32a43629f9ff825847a5f545f877.bindTooltip(
+                `<div>
+                     Cyprus: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_231b373ebfa75f9116c9bf1883e6e313 = L.circleMarker(
+                [39.1, 21.8],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_231b373ebfa75f9116c9bf1883e6e313.bindTooltip(
+                `<div>
+                     Greece: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2e2cc43ede3e83b4a000d2bfa2212b96 = L.circleMarker(
+                [50.5, 4.5],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_2e2cc43ede3e83b4a000d2bfa2212b96.bindTooltip(
+                `<div>
+                     Belgium: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bc239bceb2e57f1148788764e2487087 = L.circleMarker(
+                [26.0, 50.55],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_bc239bceb2e57f1148788764e2487087.bindTooltip(
+                `<div>
+                     Bahrain: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c7c00b2362429a25a30f913dbb676d3e = L.circleMarker(
+                [46.15, 14.99],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_c7c00b2362429a25a30f913dbb676d3e.bindTooltip(
+                `<div>
+                     Slovenia: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7b9f276b07c8f64443167258743d881a = L.circleMarker(
+                [41.6, 21.7],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_7b9f276b07c8f64443167258743d881a.bindTooltip(
+                `<div>
+                     North Macedonia: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_48849c3810f969624a7361f4c488877d = L.circleMarker(
+                [44.0, 21.0],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_48849c3810f969624a7361f4c488877d.bindTooltip(
+                `<div>
+                     Serbia: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_89730539b86baa7d8b7ce004ba412b36 = L.circleMarker(
+                [47.5, 14.55],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_89730539b86baa7d8b7ce004ba412b36.bindTooltip(
+                `<div>
+                     Austria: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_febec46ee10bdb8b91db0ff0fa6d3a26 = L.circleMarker(
+                [33.9, 35.9],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_febec46ee10bdb8b91db0ff0fa6d3a26.bindTooltip(
+                `<div>
+                     Lebanon: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_48a987f8f440c7d2b0c589f997c784f7 = L.circleMarker(
+                [31.0, 34.9],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_48a987f8f440c7d2b0c589f997c784f7.bindTooltip(
+                `<div>
+                     Israel: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bb5189fe0eb5895d878288ba6b3ed844 = L.circleMarker(
+                [48.4, 31.2],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_bb5189fe0eb5895d878288ba6b3ed844.bindTooltip(
+                `<div>
+                     Ukraine: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b63befb9c5da046588891b0b908289cf = L.circleMarker(
+                [48.0, 66.9],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_b63befb9c5da046588891b0b908289cf.bindTooltip(
+                `<div>
+                     Kazakhstan: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_66a1c1755192f737308c77a3cbd4885c = L.circleMarker(
+                [31.95, 35.2],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_66a1c1755192f737308c77a3cbd4885c.bindTooltip(
+                `<div>
+                     Palestine: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_44dbcbf28484ba70063319f840f443a7 = L.circleMarker(
+                [12.9, 121.8],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_44dbcbf28484ba70063319f840f443a7.bindTooltip(
+                `<div>
+                     Philippines: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_85bf6e12370d6d737c9e2728f0f6a3f2 = L.circleMarker(
+                [53.4, -8.2],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_85bf6e12370d6d737c9e2728f0f6a3f2.bindTooltip(
+                `<div>
+                     Ireland: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8d0a85c587892b699265e8006ed4261e = L.circleMarker(
+                [42.7, 25.5],
+                {"bubblingMouseEvents": true, "color": "#c1121f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1121f", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(map_ec996eec749cb5dbc8f0ea6d89ea72ee);
+        
+    
+            circle_marker_8d0a85c587892b699265e8006ed4261e.bindTooltip(
+                `<div>
+                     Bulgaria: 1 documentos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

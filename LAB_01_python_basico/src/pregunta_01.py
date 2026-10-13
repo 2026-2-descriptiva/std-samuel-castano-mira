@@ -1,3 +1,6 @@
+from ._datos import leer_filas
+
+
 def pregunta_01():
     """
     Calcule la suma de los valores de la segunda columna (`value`) del
@@ -8,4 +11,4 @@ def pregunta_01():
         214
     """
 
-    raise NotImplementedError
+    return sum(int(f[1]) for f in leer_filas())

@@ -1,4 +1,11 @@
+from pathlib import Path
+
+import numpy as np
 import pandas as pd
+
+ACTIVITY_DIR = Path(__file__).resolve().parents[1]
+DEADLINE_BUSINESS_DAYS = 15
+WEEK = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 
 def pregunta_01() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
@@ -61,4 +68,79 @@ def pregunta_01() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
         ...
     """
 
-    raise NotImplementedError
+    data_dir = ACTIVITY_DIR / "data"
+    out_dir = ACTIVITY_DIR / "submission"
+    out_dir.mkdir(exist_ok=True)
+
+    frames = []
+    for channel in ("letter", "web"):
+        frame = pd.read_csv(
+            data_dir / f"historical_requests_{channel}.csv.gz",
+            parse_dates=["in_date", "out_date"],
+        )
+        # Filas idénticas = solicitud repetida (NaN en record_id cuenta como igual).
+        frame = frame.drop_duplicates().assign(channel=channel)
+        frames.append(frame)
+    requests = pd.concat(frames, ignore_index=True)
+
+    answered = requests["out_date"].notna()
+    requests["calendar_days"] = (requests["out_date"] - requests["in_date"]).dt.days
+    # Días hábiles: lunes a viernes después de la entrada, hasta la respuesta incluida.
+    requests["business_days"] = np.nan
+    requests.loc[answered, "business_days"] = np.busday_count(
+        (requests.loc[answered, "in_date"] + pd.Timedelta(days=1)).values.astype(
+            "datetime64[D]"
+        ),
+        (requests.loc[answered, "out_date"] + pd.Timedelta(days=1)).values.astype(
+            "datetime64[D]"
+        ),
+    )
+    # Pendiente (NaN) no cumple: la comparación con NaN da False.
+    requests["on_time"] = requests["business_days"] <= DEADLINE_BUSINESS_DAYS
+    requests["pending"] = ~answered
+    requests["year"] = requests["in_date"].dt.year
+
+    def summarize(keys):
+        grouped = requests.groupby(keys)
+        return pd.DataFrame(
+            {
+                "requests": grouped.size(),
+                "answered": grouped["pending"].apply(lambda s: int((~s).sum())),
+                "pending": grouped["pending"].sum().astype(int),
+                "median_business_days": grouped["business_days"].median(),
+                "on_time_rate": grouped["on_time"].mean(),
+            }
+        ).reset_index()
+
+    channel_summary = summarize("channel")[
+        [
+            "channel",
+            "requests",
+            "answered",
+            "pending",
+            "median_business_days",
+            "on_time_rate",
+        ]
+    ]
+    yearly_summary = summarize(["year", "channel"])[
+        ["year", "channel", "requests", "pending", "on_time_rate"]
+    ].sort_values(["year", "channel"])
+
+    grouped = requests.groupby("day_name")
+    entry_day_summary = (
+        pd.DataFrame(
+            {
+                "requests": grouped.size(),
+                "median_calendar_days": grouped["calendar_days"].median(),
+                "median_business_days": grouped["business_days"].median(),
+            }
+        )
+        .reindex(WEEK)
+        .reset_index()
+    )
+
+    channel_summary.round(4).to_csv(out_dir / "channel_summary.csv", index=False)
+    yearly_summary.round(4).to_csv(out_dir / "yearly_summary.csv", index=False)
+    entry_day_summary.round(4).to_csv(out_dir / "entry_day_summary.csv", index=False)
+
+    return channel_summary, yearly_summary, entry_day_summary

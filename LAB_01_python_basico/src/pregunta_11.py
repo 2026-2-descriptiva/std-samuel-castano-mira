@@ -1,3 +1,6 @@
+from ._datos import leer_filas
+
+
 def pregunta_11():
     """
     La cuarta columna (`codes`) contiene letras minúsculas separadas por
@@ -10,4 +13,8 @@ def pregunta_11():
         {"a": 122, "b": 49, "c": 91, ...}
     """
 
-    raise NotImplementedError
+    suma = {}
+    for f in leer_filas():
+        for letra in f[3].split(","):
+            suma[letra] = suma.get(letra, 0) + int(f[1])
+    return dict(sorted(suma.items()))

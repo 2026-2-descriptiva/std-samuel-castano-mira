@@ -1,3 +1,6 @@
+from ._datos import leer
+
+
 def pregunta_08():
     """
     Retorne la tabla `data/tbl0.tsv` completa con una columna adicional
@@ -12,4 +15,6 @@ def pregunta_08():
         ...
     """
 
-    raise NotImplementedError
+    df = leer("tbl0")
+    df["suma"] = df["c0"] + df["c2"]
+    return df

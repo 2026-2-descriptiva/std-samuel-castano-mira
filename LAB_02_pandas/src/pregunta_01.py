@@ -1,3 +1,6 @@
+from ._datos import leer
+
+
 def pregunta_01():
     """
     ¿Cuántos registros tiene la tabla `data/tbl0.tsv`? Retorne la cantidad
@@ -8,4 +11,4 @@ def pregunta_01():
         40
     """
 
-    raise NotImplementedError
+    return len(leer("tbl0"))

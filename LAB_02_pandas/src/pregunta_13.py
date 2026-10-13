@@ -1,3 +1,6 @@
+from ._datos import leer
+
+
 def pregunta_13():
     """
     Combine las tablas `data/tbl0.tsv` y `data/tbl2.tsv` usando la columna
@@ -15,4 +18,5 @@ def pregunta_13():
         ...
     """
 
-    raise NotImplementedError
+    df = leer("tbl0").merge(leer("tbl2"), on="c0")
+    return df.groupby("c1")["c5b"].sum()

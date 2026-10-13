@@ -1,3 +1,6 @@
+from ._datos import leer_filas
+
+
 def pregunta_07():
     """
     Para cada valor distinto de la segunda columna (`value`), construya la
@@ -11,4 +14,7 @@ def pregunta_07():
         [(0, ["C"]), (1, ["E", "B", "E"]), (2, ["A", "E"]), ...]
     """
 
-    raise NotImplementedError
+    grupos = {}
+    for f in leer_filas():
+        grupos.setdefault(int(f[1]), []).append(f[0])
+    return sorted(grupos.items())

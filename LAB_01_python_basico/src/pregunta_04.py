@@ -1,3 +1,6 @@
+from ._datos import leer_filas
+
+
 def pregunta_04():
     """
     Cuente cuántos registros hay en cada mes, usando la fecha de la tercera
@@ -9,4 +12,8 @@ def pregunta_04():
         [("01", 3), ("02", 4), ("03", 2), ...]
     """
 
-    raise NotImplementedError
+    cuenta = {}
+    for f in leer_filas():
+        mes = f[2][5:7]
+        cuenta[mes] = cuenta.get(mes, 0) + 1
+    return sorted(cuenta.items())

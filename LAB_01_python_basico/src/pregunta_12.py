@@ -1,3 +1,6 @@
+from ._datos import leer_filas, pares
+
+
 def pregunta_12():
     """
     Para cada letra de la primera columna (`letter`), sume todos los valores
@@ -9,4 +12,7 @@ def pregunta_12():
         {"A": 177, "B": 187, "C": 114, ...}
     """
 
-    raise NotImplementedError
+    suma = {}
+    for f in leer_filas():
+        suma[f[0]] = suma.get(f[0], 0) + sum(v for _, v in pares(f[4]))
+    return dict(sorted(suma.items()))

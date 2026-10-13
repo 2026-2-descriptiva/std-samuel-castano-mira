@@ -26,4 +26,20 @@ def pregunta_01():
         ...
     """
 
-    raise NotImplementedError
+    from pathlib import Path
+
+    import pandas as pd
+
+    base = Path(__file__).resolve().parents[1]
+    salida = base / "submission"
+    salida.mkdir(exist_ok=True)
+
+    for division in ("train", "test"):
+        filas = []
+        for carpeta in sorted(p for p in (base / "data" / division).iterdir() if p.is_dir()):
+            for archivo in sorted(carpeta.glob("*.txt")):
+                texto = archivo.read_text(encoding="utf-8").strip()
+                filas.append((texto, carpeta.name))
+        df = pd.DataFrame(filas, columns=["phrase", "target"])
+        df.to_csv(salida / f"{division}_dataset.csv", index=False, encoding="utf-8")
+

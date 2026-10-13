@@ -80,4 +80,75 @@ def pregunta_01():
         }
     """
 
-    raise NotImplementedError
+    import json
+    from pathlib import Path
+
+    import pandas as pd
+
+    k = 5
+    base = Path(__file__).resolve().parents[1]
+    df = pd.read_csv(base / "data" / "insurance.csv.gz")
+
+    df["age_group"] = pd.cut(
+        df["age"], [17, 29, 39, 49, 64], labels=["18-29", "30-39", "40-49", "50-64"]
+    ).astype(str)
+    df["bmi_group"] = pd.cut(
+        df["bmi"],
+        [-float("inf"), 18.5, 25, 30, float("inf")],
+        right=False,
+        labels=["bajo peso", "normal", "sobrepeso", "obesidad"],
+    ).astype(str)
+    df["children_group"] = pd.cut(
+        df["children"], [-1, 0, 2, float("inf")], labels=["0", "1-2", "3+"]
+    ).astype(str)
+
+    # Riesgo original, sin generalizar.
+    original = ["age", "sex", "bmi", "children", "region"]
+    tamanos = df.groupby(original)["age"].transform("size")
+    original_k = int(tamanos.min())
+    original_unique = int((tamanos == 1).sum())
+
+    esquemas = {
+        "with_children": ["age_group", "sex", "bmi_group", "children_group", "region"],
+        "without_children": ["age_group", "sex", "bmi_group", "region"],
+    }
+    schemes, publicados = {}, {}
+    for nombre, qi in esquemas.items():
+        size = df.groupby(qi)["age"].transform("size")
+        pub = df[size >= k]
+        fuman = pub["smoker"].eq("yes").groupby([pub[c] for c in qi]).agg(["sum", "size"])
+        sin_div = fuman[(fuman["sum"] == 0) | (fuman["sum"] == fuman["size"])]
+        schemes[nombre] = {
+            "quasi_identifiers": qi,
+            "equivalence_classes": int(df.groupby(qi).ngroups),
+            "k_before_suppression": int(size.min()),
+            "suppressed_records": int((size < k).sum()),
+            "published_records": len(pub),
+            "published_classes": len(fuman),
+            "classes_without_smoker_diversity": len(sin_div),
+            "records_without_smoker_diversity": int(sin_div["size"].sum()),
+        }
+        publicados[nombre] = pub
+
+    elegido = min(schemes, key=lambda n: schemes[n]["suppressed_records"])
+    pub = publicados[elegido]
+    report = {
+        "original_k": original_k,
+        "original_unique_records": original_unique,
+        "schemes": schemes,
+        "selected_scheme": elegido,
+        "mean_charges_original": float(df["charges"].mean()),
+        "mean_charges_published": float(pub["charges"].mean()),
+        "smoker_rate_original": float(df["smoker"].eq("yes").mean()),
+        "smoker_rate_published": float(pub["smoker"].eq("yes").mean()),
+    }
+
+    out = base / "submission"
+    out.mkdir(exist_ok=True)
+    (out / "privacy_report.json").write_text(
+        json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    pub[schemes[elegido]["quasi_identifiers"] + ["smoker", "charges"]].to_csv(
+        out / "insurance_published.csv", index=False
+    )
+    return report

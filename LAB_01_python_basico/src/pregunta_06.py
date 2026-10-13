@@ -1,3 +1,6 @@
+from ._datos import leer_filas, pares
+
+
 def pregunta_06():
     """
     La quinta columna (`metrics`) contiene pares `clave:valor` separados por
@@ -13,4 +16,8 @@ def pregunta_06():
         [("aaa", 1, 9), ("bbb", 1, 9), ...]
     """
 
-    raise NotImplementedError
+    valores = {}
+    for f in leer_filas():
+        for clave, valor in pares(f[4]):
+            valores.setdefault(clave, []).append(valor)
+    return [(k, min(v), max(v)) for k, v in sorted(valores.items())]

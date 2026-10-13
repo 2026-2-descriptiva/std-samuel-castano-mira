@@ -43,4 +43,43 @@ def clean_campaign_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
         ...
     """
 
-    raise NotImplementedError
+    from pathlib import Path
+
+    base = Path(__file__).resolve().parents[1]
+    archivos = sorted((base / "data").glob("bank-marketing-campaing-*.csv.gz"))
+    df = pd.concat([pd.read_csv(f) for f in archivos], ignore_index=True)
+    df = df.sort_values("client_id").reset_index(drop=True)
+
+    client = df[["client_id", "age", "job", "marital", "education"]].copy()
+    client["job"] = (
+        df["job"].str.replace(".", "", regex=False).str.replace("-", "_", regex=False)
+    )
+    client["education"] = (
+        df["education"].str.replace(".", "_", regex=False).replace("unknown", pd.NA)
+    )
+    client["credit_default"] = (df["credit_default"] == "yes").astype(int)
+    client["mortgage"] = (df["mortgage"] == "yes").astype(int)
+
+    meses = {
+        m: i
+        for i, m in enumerate(
+            "jan feb mar apr may jun jul aug sep oct nov dec".split(), start=1
+        )
+    }
+    campaign = df[
+        ["client_id", "number_contacts", "contact_duration", "previous_campaign_contacts"]
+    ].copy()
+    campaign["previous_outcome"] = (df["previous_outcome"] == "success").astype(int)
+    campaign["campaign_outcome"] = (df["campaign_outcome"] == "yes").astype(int)
+    campaign["last_contact_date"] = pd.to_datetime(
+        {"year": 2022, "month": df["month"].map(meses), "day": df["day"]}
+    ).dt.strftime("%Y-%m-%d")
+
+    economics = df[["client_id", "cons_price_idx", "euribor_three_months"]].copy()
+
+    out = base / "submission"
+    out.mkdir(exist_ok=True)
+    client.to_csv(out / "client.csv", index=False)
+    campaign.to_csv(out / "campaign.csv", index=False)
+    economics.to_csv(out / "economics.csv", index=False)
+    return client, campaign, economics

@@ -1,0 +1,11 @@
+metrica,valor,detalle
+Empleados analizados,1000,Nomina completa sin nulos ni duplicados
+Mediana salarial (COP),9459118,Mediana de toda la nomina
+Umbral salario alto P90 (COP),17340830,Salario alto = >= P90
+Empleados con salario alto,100,Categoria con mas casos: Principal (98)
+Mediana Directiva vs Tecnica,1.8,Razon de medianas por trayectoria
+Correlacion experiencia-salario,0.857,"Pearson, experiencia tecnica en anios"
+Departamento mas rezagado,Clientes menores,Brecha -16.45 % (Comercial)
+Departamento mas favorecido,Tesorería,Brecha 12.38 % (Finanzas)
+Departamentos con ajuste prioritario,1,Brecha menor a -5 %
+Empleados bajo 80 % de su referencia,52,Riesgo de retencion

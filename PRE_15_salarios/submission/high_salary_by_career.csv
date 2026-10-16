@@ -1,0 +1,10 @@
+trayectoria,categoria,empleados,salario_alto,pct_salario_alto,umbral_cop
+Directiva,Principal,53,53,100.0,17340830
+Técnica,Principal,67,45,67.2,17340830
+Directiva,Senior,88,2,2.3,17340830
+Directiva,Especialista,46,0,0.0,17340830
+Directiva,Profesional,18,0,0.0,17340830
+Técnica,Analista,140,0,0.0,17340830
+Técnica,Especialista,208,0,0.0,17340830
+Técnica,Profesional,236,0,0.0,17340830
+Técnica,Senior,144,0,0.0,17340830

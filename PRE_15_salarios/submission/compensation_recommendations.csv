@@ -1,0 +1,8 @@
+gerencia,departamento,empleados,brecha_pct,empleados_bajo_80pct_ref,recomendacion,ajuste_mediano_sugerido_cop
+Comercial,Clientes menores,124,-16.45,20,Ajuste salarial prioritario,1596301.0
+Operaciones,Operaciones,185,-2.3,6,Mantener,223191.0
+Finanzas,Planeación financiera,112,0.51,1,Mantener,-0.0
+Talento,Recursos humanos,120,0.78,5,Mantener,-0.0
+Operaciones,Tecnología,156,3.18,0,Mantener,-0.0
+Comercial,Clientes mayoristas,173,6.58,1,Monitorear (por encima de la referencia),-0.0
+Finanzas,Tesorería,130,12.38,19,Monitorear (por encima de la referencia),-0.0
